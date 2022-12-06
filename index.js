@@ -32,7 +32,7 @@ function speedDetector (speed){
 speedDetector(speed);
 
 
-//studentGrader
+//student-Grader
 
 //loading the prompt-sync module in our code and exports it to prompt variable
 const prompt = require('prompt-sync')();
