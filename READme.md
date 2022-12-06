@@ -3,29 +3,21 @@
 
   ## Procedure
 
- ### step 1
- To get user input in nodeJs we use prompt() function
- but we need to install the prompt sync module in our terminal using the below code
-  `npm install prompt-sync`
 
-  Then load the module in our .js file using the below code
-
-  ```js
-  const prompt = require('prompt-sync')();
-  ```
-This line below will prompt user to enter a mark and store our input in studentMarks variable 
-   ```javascript
-       let studentMarks = prompt("Enter student's marks ? ");
-       //This line below will display the entered marks back to the user.
-        console.log(`Student's marks is :  ${studentMarks}`);
-
-   ```
 
 # WEEK-1-CODE-CHALLENGE
-STUDENT GRADE GENERATOR
-SPEED-DETECTOR
-### Author : 
-Name : Mutuku Mutua
+- STUDENT-GRADE-GENERATOR
+- SPEED-DETECTOR
+
+## SCREENSHOTS
+![Alt txt](./1.png)
+
+********
+
+# Author : 
+ Name : Mutuku Mutua
+
+ Link : https://github.com/Mutuku-Mutua
 
 # Instructions
 
@@ -34,18 +26,30 @@ Name : Mutuku Mutua
    * The input should be between 0 and 100.
    * Then output the correct grade according to the criteria below: 
         A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+
 ### Challenge 2: Speed Detector
 
 * Write a program that takes as input the speed of a car e.g 80. 
 * If the speed is less than 70, it should print “Ok”. 
-* Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+* Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit 
 
-### step 1
 
-## SCREENSHOTS
-![Alt txt](./1.png)
-********
+
 ## SetUp Instruction
+
+ ### step 1
+ To get user input in nodeJs we use prompt() function
+ but we need to install the prompt sync module in our terminal using the below code
+  ```bash
+  npm install prompt-sync
+  ```
+
+  Then load the module in our .js file using the below code
+
+  ```js
+  const prompt = require('prompt-sync')();
+  ```
+
 ### Requirements
 * [Lang](lang eng)
 * [Framework](Framework URL)
@@ -62,19 +66,9 @@ Name : Mutuku Mutua
 - Create a Pull request
 * Open the folder location on terminal and use the following command to run app:
 ## How To Run It
->  $ npm install 
-To install all requirements
-> $ npm test
-Then run server with the above command
-*****
-## Live Link
-Or you can access the web application directly via this [LINK.](link.com/)
-*****
-## Dependencies
-- Package Name
-- Package Name
-- Package Name
-- Package Name
+```bash
+node index.js
+```
 *****
 ## Technologies Used
 1. HTML
