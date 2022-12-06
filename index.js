@@ -1,4 +1,4 @@
-
+//speedDetector
 //loading the prompt-sync module in our code and exports it to prompt variable
 const promptSpeed = require(`prompt-sync`)();
 //ask the user to enter speed of car
@@ -32,7 +32,7 @@ function speedDetector (speed){
 speedDetector(speed);
 
 
-//student
+//studentGrader
 
 //loading the prompt-sync module in our code and exports it to prompt variable
 const prompt = require('prompt-sync')();
