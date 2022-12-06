@@ -4,6 +4,7 @@ const promptSpeed = require(`prompt-sync`)();
 //ask the user to enter speed of car
 let speed = promptSpeed(`Enter speed of car: `)
 
+
 console.log(`Car's speed is :  ${speed} Kmph`);
 //declare function to decide whether speed is ok or not
 function speedDetector (speed){

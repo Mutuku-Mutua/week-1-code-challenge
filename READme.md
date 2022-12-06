@@ -37,7 +37,7 @@
 
 ## SetUp Instruction
 
- ### step 1
+ ### step 1 [prerequisites]
  To get user input in nodeJs we use prompt() function
  but we need to install the prompt sync module in our terminal using the below code
   ```bash
@@ -52,15 +52,15 @@
 
 ### Requirements
 * [Lang](lang eng)
-* [Framework](Framework URL)
 * Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
-* [Testing Platform](Platform URL)
+* [Testing Platform](node index.js)
 ### Getting Files
 * Fork the repo
-- Create a new branch in your terminal (git checkout -b improve-feature)
+* Copy the SSH link 
+* Git clone the link in your terminal
 - Install the prerequisites
 - Make appropriate changes in file(s)
-- Run the server to see the changes
+
 - Add the changes and commit them (git commit -am "Improve App")
 - Push to the branch (git push origin improve-app)
 - Create a Pull request
