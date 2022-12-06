@@ -27,8 +27,7 @@ This line below will prompt user to enter a mark and store our input in studentM
 
    ```
 
-##README TEMPLATE
-# Name of the Project
+# WEEK-1-CODE-CHALLENGE
 STUDENT GRADE GENERATOR
 ### Author : Name Date
 Mutuku Mutua
