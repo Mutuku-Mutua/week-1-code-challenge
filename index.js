@@ -40,7 +40,7 @@ const prompt = require('prompt-sync')();
 let studentMarks = prompt("Enter student's marks ? ");
 console.log(`Student's marks is :  ${studentMarks}`);
 
-      //grading function that uses else-if statements to determine students grade
+//grading function that uses else-if statements to determine students grade
   function grading(studentMarks){
     
     if(studentMarks >= 0 && studentMarks < 40){
